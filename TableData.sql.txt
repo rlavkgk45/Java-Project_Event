@@ -1,0 +1,102 @@
+/* Drop Tables */
+
+DROP TABLE Event CASCADE CONSTRAINTS;
+DROP TABLE Category CASCADE CONSTRAINTS;
+DROP TABLE Location CASCADE CONSTRAINTS;
+
+
+
+/* Drop Sequences */
+
+DROP SEQUENCE eventno;
+
+
+
+
+/* Create Sequences */
+
+CREATE SEQUENCE eventno INCREMENT BY 1 START WITH 1;
+
+
+
+/* Create Tables */
+
+CREATE TABLE Category
+(
+   catNumber varchar2(20 char) NOT NULL,
+   category varchar2(100) NOT NULL,
+   PRIMARY KEY (catNumber)
+);
+
+
+CREATE TABLE Event
+(
+   eventNo number NOT NULL,
+   title varchar2(200 char) NOT NULL,
+   address varchar2(200) NOT NULL,
+   eventStartDate varchar2(100) NOT NULL,
+   eventEndDate varchar2(100) NOT NULL,
+   tel varchar2(100),
+   readCount varchar2(200),
+   catNumber varchar2(20 char) NOT NULL,
+   areaCode varchar2(20 char) NOT NULL,
+   PRIMARY KEY (eventNo)
+);
+
+
+CREATE TABLE Location
+(
+   areaCode varchar2(20 char) NOT NULL,
+   location varchar2(150) NOT NULL,
+   PRIMARY KEY (areaCode)
+);
+
+
+
+/* Create Foreign Keys */
+
+ALTER TABLE Event
+   ADD FOREIGN KEY (catNumber)
+   REFERENCES Category (catNumber)
+;
+
+
+ALTER TABLE Event
+   ADD FOREIGN KEY (areaCode)
+   REFERENCES Location (areaCode)
+;
+
+
+insert into category values('A02070100','문화관광축제');
+insert into category values('A02070200','일반축제');
+insert into category values('A02080100','전통공연');
+insert into category values('A02080200','연극');
+insert into category values('A02080300','뮤지컬');
+insert into category values('A02080400','오페라');
+insert into category values('A02080500','전시회');
+insert into category values('A02080600','박람회');
+insert into category values('A02080700','컨벤션');
+insert into category values('A02080800','무용');
+insert into category values('A02080900','클래식음악회');
+insert into category values('A02081000','대중콘서트');
+insert into category values('A02081100','영화');
+insert into category values('A02081200','스포츠경기');
+insert into category values('A02081300','기타행사');
+
+insert into location values(1, '서울');
+insert into location values(2, '인천');
+insert into location values(3, '대전');
+insert into location values(4, '대구');
+insert into location values(5, '광주');
+insert into location values(6, '부산');
+insert into location values(7, '울산');
+insert into location values(8, '세종특별자치시');
+insert into location values(31, '경기도');
+insert into location values(32, '강원도');
+insert into location values(33, '충청북도');
+insert into location values(34, '충청남도');
+insert into location values(35, '경상북도');
+insert into location values(36, '경상남도');
+insert into location values(37, '전라북도');
+insert into location values(38, '전라남도');
+insert into location values(39, '제주도');
