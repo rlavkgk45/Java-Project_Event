@@ -1,17 +1,12 @@
-## GitTutorial
-
-소스코드 블록은 다음과 같이 작성할 수 있습니다.
+## Encore JavaProject
 
 ````JAVA
-
 public static void main(String [] args){
-  System.out.println("Hellow Git");
+  System.out.println("Hellow My JavaProject");
 }
 ``````
 
-링크는 다음과 같이 작성할 수 있습니다.
-
-[블로그 주소](http://blog.naver.com/rlavkgk45)
+[깃 허브 주소](https://github.com/rlavkgk45/javaproject_Event)
 
 순서 없는 목록은 다음과 같이 작성할 수 있습니다.
 
