@@ -6,7 +6,7 @@ public static void main(String [] args){
 }
 ``````
 
-[깃 허브 주소](https://github.com/rlavkgk45/javaproject_Event)
+하이퍼링크 : [깃 허브 주소](https://github.com/rlavkgk45/javaproject_Event)
 
 순서 없는 목록은 다음과 같이 작성할 수 있습니다.
 
