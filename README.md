@@ -21,19 +21,12 @@ Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
   * Json Simple
   * Maven
   * OracleDB
-   
-> '공부합시다.' - 김동범 -
 
-테이블은 다음과 같이 작성할 수 있습니다.
-
+### Used Table
 TableName|TABTYPE|
 ---|---|
 Event|TABLE|
----|---|
 Category|TABLE|
----|---|
 Location|TABLE|
 
-강조는 다음과 같이 할 수 있습니다.
-**치킨** 먹다가 ~~두드러기났어요 ㅜㅜ.
-    
+It was too **hard**
