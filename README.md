@@ -27,10 +27,12 @@ Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
 테이블은 다음과 같이 작성할 수 있습니다.
 
 TableName|TABTYPE|
----|---|---|---|
-Event|
-Category|
-Location|
+---|---|
+Event|TABLE|
+---|---|
+Category|TABLE|
+---|---|
+Location|TABLE|
 
 강조는 다음과 같이 할 수 있습니다.
 **치킨** 먹다가 ~~두드러기났어요 ㅜㅜ.
