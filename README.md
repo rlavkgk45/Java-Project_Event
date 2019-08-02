@@ -20,6 +20,8 @@ Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
   * Json
   * Json Simple
   * Maven
+  * Crawling
+  * REST API
   * OracleDB
 
 ### Used Table
