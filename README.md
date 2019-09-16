@@ -18,7 +18,6 @@ GitHub Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
   * DTO
   * DAO
 * FrameWork & Library
-  * Public data API(REST API)
   * Lombok
   * Json
   * Json Simple
@@ -27,7 +26,9 @@ GitHub Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
 * Plug In
   * Maven
     * Log4J
-
+* API
+  * Public data API(REST API)
+  
 ### Used Table
 TableName|TABTYPE|
 ---|---|
