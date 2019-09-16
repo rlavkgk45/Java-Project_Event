@@ -10,13 +10,12 @@ Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
 
 ### USED
 * Java
+  *JDBC
   * MVC Pattern
   * Singleton Pattern
   * DTO
   * DAO
   * JDBC
-  * Log4J
-  * Lombok
   * Json
   * Json Simple
   * Maven
@@ -26,7 +25,7 @@ Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
 * Plug In
   * Maven
     * Lombok
-  * Lombok
+    * Log4J
 
 ### Used Table
 TableName|TABTYPE|
