@@ -11,21 +11,20 @@ Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
 ### USED
 * Java
   * JDBC
-  
-  * MVC Pattern
-  * Singleton Pattern
+* Pattern
+  * MVC
+  * Singleton  
   * DTO
   * DAO
-  * JDBC
+* FrameWork & Library
+  * Public data API(REST API)
+  * Lombok
   * Json
   * Json Simple
-  * Maven
-  * Crawling
-  * REST API
+* DataBase
   * OracleDB
 * Plug In
   * Maven
-    * Lombok
     * Log4J
 
 ### Used Table
