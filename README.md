@@ -7,7 +7,7 @@ public static void main(String [] args){
 }
 ``````
 
-Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
+GitHub Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
 
 ### USED
 * Java
@@ -34,5 +34,3 @@ TableName|TABTYPE|
 Event|TABLE|
 Category|TABLE|
 Location|TABLE|
-
-It was too **hard**
