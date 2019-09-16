@@ -9,7 +9,7 @@ public static void main(String [] args){
 Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
 
 ### USED
-* JavaProject_Event
+* Java
   * MVC Pattern
   * Singleton Pattern
   * DTO
@@ -23,6 +23,10 @@ Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
   * Crawling
   * REST API
   * OracleDB
+* Plug In
+  * Maven
+    * Lombok
+  * Lombok
 
 ### Used Table
 TableName|TABTYPE|
