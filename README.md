@@ -1,5 +1,5 @@
 ## JavaProject
-공공데이터 Api를 사용하여 지역명 검색으로 해당 지역의 모든 행사 조회 서비스 구현
+공공데이터 Api를 사용하여 지역명 검색으로 해당 지역의 모든 행사 조회 서비스
 
 ````JAVA
 public static void main(String [] args){
