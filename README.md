@@ -10,7 +10,8 @@ Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
 
 ### USED
 * Java
-  *JDBC
+  * JDBC
+  
   * MVC Pattern
   * Singleton Pattern
   * DTO
