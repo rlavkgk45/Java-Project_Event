@@ -11,7 +11,6 @@ GitHub Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
 
 ### USED
 * Java
-  * JDBC
 * Pattern
   * MVC
   * Singleton  
@@ -21,6 +20,7 @@ GitHub Hyperlink : [URL](https://github.com/rlavkgk45/javaproject_Event)
   * Lombok
   * Json
   * Json Simple
+  * JDBC
 * DataBase
   * OracleDB
 * Plug In
